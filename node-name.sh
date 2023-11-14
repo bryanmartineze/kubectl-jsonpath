@@ -1,0 +1,3 @@
+#!/bin/bash
+
+kubectl get nodes -o=jsonpath='{.items[*].metadata.name}'
